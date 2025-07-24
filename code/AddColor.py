@@ -189,11 +189,14 @@ add_triangle(mesh_object, v0, v7, v3)
 # Right face (x = half_size)
 add_triangle(mesh_object, v1, v2, v6)
 add_triangle(mesh_object, v1, v6, v5)
+mesh_object.SetGeometry(vertices, triangles)
+
 
 print(f"Created cube mesh with {mesh_object.GetVertexCount()} vertices and {mesh_object.GetTriangleCount()} triangles")
 
 if mesh_object:
     # Create volumetric cubes that fill the first mesh object
+
     create_volumetric_cubes_in_mesh(model, mesh_object, voxel_resolution=4)
     
     # Save the modified model

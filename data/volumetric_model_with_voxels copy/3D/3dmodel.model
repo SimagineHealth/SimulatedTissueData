@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" unit="millimeter" xml:lang="en-US" xmlns:m="http://schemas.microsoft.com/3dmanufacturing/material/2015/02" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" xmlns:b="http://schemas.microsoft.com/3dmanufacturing/beamlattice/2017/02" xmlns:s="http://schemas.microsoft.com/3dmanufacturing/slice/2015/07" xmlns:t="http://schemas.microsoft.com/3dmanufacturing/trianglesets/2021/07" xmlns:sc="http://schemas.microsoft.com/3dmanufacturing/securecontent/2019/04" xmlns:v="http://schemas.3mf.io/3dmanufacturing/volumetric/2022/01" xmlns:i="http://schemas.3mf.io/3dmanufacturing/implicit/2023/12">
+	<resources>
+		<m:colorgroup id="3">
+			<m:color color="#000000FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="5">
+			<m:color color="#00003FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="7">
+			<m:color color="#00007FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="9">
+			<m:color color="#0000BFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="11">
+			<m:color color="#003F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="13">
+			<m:color color="#003F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="15">
+			<m:color color="#003F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="17">
+			<m:color color="#003FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="19">
+			<m:color color="#007F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="21">
+			<m:color color="#007F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="23">
+			<m:color color="#007F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="25">
+			<m:color color="#007FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="27">
+			<m:color color="#00BF00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="29">
+			<m:color color="#00BF3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="31">
+			<m:color color="#00BF7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="33">
+			<m:color color="#00BFBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="35">
+			<m:color color="#3F0000FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="37">
+			<m:color color="#3F003FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="39">
+			<m:color color="#3F007FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="41">
+			<m:color color="#3F00BFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="43">
+			<m:color color="#3F3F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="45">
+			<m:color color="#3F3F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="47">
+			<m:color color="#3F3F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="49">
+			<m:color color="#3F3FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="51">
+			<m:color color="#3F7F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="53">
+			<m:color color="#3F7F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="55">
+			<m:color color="#3F7F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="57">
+			<m:color color="#3F7FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="59">
+			<m:color color="#3FBF00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="61">
+			<m:color color="#3FBF3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="63">
+			<m:color color="#3FBF7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="65">
+			<m:color color="#3FBFBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="67">
+			<m:color color="#7F0000FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="69">
+			<m:color color="#7F003FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="71">
+			<m:color color="#7F007FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="73">
+			<m:color color="#7F00BFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="75">
+			<m:color color="#7F3F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="77">
+			<m:color color="#7F3F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="79">
+			<m:color color="#7F3F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="81">
+			<m:color color="#7F3FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="83">
+			<m:color color="#7F7F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="85">
+			<m:color color="#7F7F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="87">
+			<m:color color="#7F7F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="89">
+			<m:color color="#7F7FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="91">
+			<m:color color="#7FBF00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="93">
+			<m:color color="#7FBF3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="95">
+			<m:color color="#7FBF7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="97">
+			<m:color color="#7FBFBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="99">
+			<m:color color="#BF0000FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="101">
+			<m:color color="#BF003FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="103">
+			<m:color color="#BF007FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="105">
+			<m:color color="#BF00BFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="107">
+			<m:color color="#BF3F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="109">
+			<m:color color="#BF3F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="111">
+			<m:color color="#BF3F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="113">
+			<m:color color="#BF3FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="115">
+			<m:color color="#BF7F00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="117">
+			<m:color color="#BF7F3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="119">
+			<m:color color="#BF7F7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="121">
+			<m:color color="#BF7FBFFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="123">
+			<m:color color="#BFBF00FF"/>
+		</m:colorgroup>
+		<m:colorgroup id="125">
+			<m:color color="#BFBF3FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="127">
+			<m:color color="#BFBF7FFF"/>
+		</m:colorgroup>
+		<m:colorgroup id="129">
+			<m:color color="#BFBFBFFF"/>
+		</m:colorgroup>
+		<object id="1" name="volumetric_mesh" type="model" p:UUID="f6cf7386-705d-4437-9c0f-be379acef592">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-5.000000" z="-5.000000" />
+					<vertex x="5.000000" y="-5.000000" z="-5.000000" />
+					<vertex x="5.000000" y="5.000000" z="-5.000000" />
+					<vertex x="-5.000000" y="5.000000" z="-5.000000" />
+					<vertex x="-5.000000" y="-5.000000" z="5.000000" />
+					<vertex x="5.000000" y="-5.000000" z="5.000000" />
+					<vertex x="5.000000" y="5.000000" z="5.000000" />
+					<vertex x="-5.000000" y="5.000000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="2" v3="1" />
+					<triangle v1="0" v2="3" v3="2" />
+					<triangle v1="4" v2="5" v3="6" />
+					<triangle v1="4" v2="6" v3="7" />
+					<triangle v1="0" v2="1" v3="5" />
+					<triangle v1="0" v2="5" v3="4" />
+					<triangle v1="2" v2="7" v3="6" />
+					<triangle v1="2" v2="3" v3="7" />
+					<triangle v1="0" v2="4" v3="7" />
+					<triangle v1="0" v2="7" v3="3" />
+					<triangle v1="1" v2="2" v3="6" />
+					<triangle v1="1" v2="6" v3="5" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="2" name="voxel_0_0_0" type="model" p:UUID="0c99943b-3d48-4327-a209-e48e9d53a87e">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-5.000000" z="-5.000000" />
+					<vertex x="-2.500000" y="-5.000000" z="-5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="-5.000000" y="-2.500000" z="-5.000000" />
+					<vertex x="-5.000000" y="-5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="4" name="voxel_0_0_1" type="model" p:UUID="86d87926-a999-4da1-a13b-63126a75780b">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="-5.000000" z="0" />
+					<vertex x="-2.500000" y="-5.000000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="-5.000000" y="-2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="6" name="voxel_0_0_2" type="model" p:UUID="f6c21ee2-d750-419c-ac74-0c123ab93ca2">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-5.000000" z="0" />
+					<vertex x="-2.500000" y="-5.000000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="-5.000000" y="-2.500000" z="0" />
+					<vertex x="-5.000000" y="-5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="8" name="voxel_0_0_3" type="model" p:UUID="aa398daa-beb6-42f8-b061-8448d5a4875e">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="-5.000000" z="5.000000" />
+					<vertex x="-2.500000" y="-5.000000" z="5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="-5.000000" y="-2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="10" name="voxel_0_1_0" type="model" p:UUID="9df2ed04-982c-4d68-8fb4-2c864d1a448b">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="0" z="-5.000000" />
+					<vertex x="-5.000000" y="0" z="-5.000000" />
+					<vertex x="-5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="-5.000000" y="0" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="12" name="voxel_0_1_1" type="model" p:UUID="5148c4ac-a091-42f8-852d-d90e0b813aa9">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="-5.000000" y="0" z="-2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="-5.000000" y="0" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="14" name="voxel_0_1_2" type="model" p:UUID="8594f6e5-e430-475d-a576-ef10f5e454ad">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="-5.000000" y="0" z="0" />
+					<vertex x="-5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="-5.000000" y="0" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="16" name="voxel_0_1_3" type="model" p:UUID="972f0e15-1380-4d94-b52e-1a3ef9b67ecf">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="-5.000000" y="0" z="2.500000" />
+					<vertex x="-5.000000" y="-2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="0" z="5.000000" />
+					<vertex x="-5.000000" y="0" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="18" name="voxel_0_2_0" type="model" p:UUID="edf1f5a6-39a9-4a32-8d52-8e32bf9ba33c">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="0" z="-5.000000" />
+					<vertex x="-2.500000" y="0" z="-5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="-5.000000" y="2.500000" z="-5.000000" />
+					<vertex x="-5.000000" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="20" name="voxel_0_2_1" type="model" p:UUID="0412377a-1614-4f1c-9dc2-886031dabbde">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="-5.000000" y="0" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="-5.000000" y="2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="22" name="voxel_0_2_2" type="model" p:UUID="9ed62cbd-8455-4ff9-cbfc-368a474e7a0c">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="0" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="-5.000000" y="2.500000" z="0" />
+					<vertex x="-5.000000" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="24" name="voxel_0_2_3" type="model" p:UUID="3b30b50a-214f-416e-8320-2d9ee3aed8b2">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="2.500000" />
+					<vertex x="-5.000000" y="0" z="5.000000" />
+					<vertex x="-2.500000" y="0" z="5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="5.000000" />
+					<vertex x="-5.000000" y="2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="26" name="voxel_0_3_0" type="model" p:UUID="a8eef139-4a30-4f9f-cc35-0a9a88a3d941">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="5.000000" z="-5.000000" />
+					<vertex x="-5.000000" y="5.000000" z="-5.000000" />
+					<vertex x="-5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="-5.000000" y="5.000000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="28" name="voxel_0_3_1" type="model" p:UUID="824b959a-aae6-4894-b408-bfce043cddb0">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="-5.000000" y="5.000000" z="-2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="5.000000" z="0" />
+					<vertex x="-5.000000" y="5.000000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="30" name="voxel_0_3_2" type="model" p:UUID="1d445aed-68e8-4859-b4bc-5276d243cf54">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="5.000000" z="0" />
+					<vertex x="-5.000000" y="5.000000" z="0" />
+					<vertex x="-5.000000" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="2.500000" />
+					<vertex x="-5.000000" y="5.000000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="32" name="voxel_0_3_3" type="model" p:UUID="a1b437b6-1f2c-46df-cd32-d85ed7b394b5">
+			<mesh>
+				<vertices>
+					<vertex x="-5.000000" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="2.500000" />
+					<vertex x="-5.000000" y="5.000000" z="2.500000" />
+					<vertex x="-5.000000" y="2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="5.000000" z="5.000000" />
+					<vertex x="-5.000000" y="5.000000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="34" name="voxel_1_0_0" type="model" p:UUID="d74ffe20-3785-4e83-ba14-5d249a0342ef">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-5.000000" z="-5.000000" />
+					<vertex x="0" y="-5.000000" z="-5.000000" />
+					<vertex x="0" y="-2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="0" y="-5.000000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="36" name="voxel_1_0_1" type="model" p:UUID="c571fcc2-9040-4ab3-adea-b90aa021d544">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="0" y="-5.000000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="0" />
+					<vertex x="0" y="-5.000000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="38" name="voxel_1_0_2" type="model" p:UUID="98b0e226-be75-443d-80f5-d0a9033d45e8">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-5.000000" z="0" />
+					<vertex x="0" y="-5.000000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="-2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="0" y="-5.000000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="40" name="voxel_1_0_3" type="model" p:UUID="77053910-ad8e-4299-cabc-d45451f3e493">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="0" y="-5.000000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="-5.000000" z="5.000000" />
+					<vertex x="0" y="-5.000000" z="5.000000" />
+					<vertex x="0" y="-2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="42" name="voxel_1_1_0" type="model" p:UUID="491d3896-399a-4f6b-c02b-0f9c81f329b8">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="0" y="-2.500000" z="-5.000000" />
+					<vertex x="0" y="0" z="-5.000000" />
+					<vertex x="-2.500000" y="0" z="-5.000000" />
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="44" name="voxel_1_1_1" type="model" p:UUID="9212fe2c-2608-431d-8855-5f8427ea4d2c">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="46" name="voxel_1_1_2" type="model" p:UUID="38ca3611-7d48-4e24-976c-362699529c57">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-2.500000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="48" name="voxel_1_1_3" type="model" p:UUID="31d684af-900c-485b-c8ae-98df4f4960ca">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="-2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="0" y="-2.500000" z="5.000000" />
+					<vertex x="0" y="0" z="5.000000" />
+					<vertex x="-2.500000" y="0" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="50" name="voxel_1_2_0" type="model" p:UUID="75f84701-760b-4dc2-99fb-711735436c1b">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="0" z="-5.000000" />
+					<vertex x="0" y="0" z="-5.000000" />
+					<vertex x="0" y="2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="52" name="voxel_1_2_1" type="model" p:UUID="1135f658-74c4-4e83-81ea-bc666f94f4cb">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="0" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="54" name="voxel_1_2_2" type="model" p:UUID="a5c167fc-f784-4098-b061-4b74715eb3b4">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="0" z="0" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="56" name="voxel_1_2_3" type="model" p:UUID="6942e08a-f1ff-4356-9938-cf76d9bfd989">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="0" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="-2.500000" y="0" z="5.000000" />
+					<vertex x="0" y="0" z="5.000000" />
+					<vertex x="0" y="2.500000" z="5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="58" name="voxel_1_3_0" type="model" p:UUID="80b27224-af11-488f-c6f3-b6c5af29905b">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="0" y="2.500000" z="-5.000000" />
+					<vertex x="0" y="5.000000" z="-5.000000" />
+					<vertex x="-2.500000" y="5.000000" z="-5.000000" />
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="60" name="voxel_1_3_1" type="model" p:UUID="08fbed84-6886-435f-8e9a-77ed915fe97f">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="0" y="5.000000" z="0" />
+					<vertex x="-2.500000" y="5.000000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="62" name="voxel_1_3_2" type="model" p:UUID="fbd4ea6b-4ff1-4716-a10b-9054fe0bbeae">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="2.500000" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="0" y="5.000000" z="0" />
+					<vertex x="-2.500000" y="5.000000" z="0" />
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="0" y="5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="64" name="voxel_1_3_3" type="model" p:UUID="cf96593a-fb10-4518-9421-15b147160bcb">
+			<mesh>
+				<vertices>
+					<vertex x="-2.500000" y="2.500000" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="0" y="5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="5.000000" z="2.500000" />
+					<vertex x="-2.500000" y="2.500000" z="5.000000" />
+					<vertex x="0" y="2.500000" z="5.000000" />
+					<vertex x="0" y="5.000000" z="5.000000" />
+					<vertex x="-2.500000" y="5.000000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="66" name="voxel_2_0_0" type="model" p:UUID="1af89a65-3310-4843-ba59-2ddd5a4cf4b4">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-5.000000" z="-5.000000" />
+					<vertex x="2.500000" y="-5.000000" z="-5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="0" y="-2.500000" z="-5.000000" />
+					<vertex x="0" y="-5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="68" name="voxel_2_0_1" type="model" p:UUID="a74df03e-2d7a-4299-a012-c077728851a0">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="0" y="-5.000000" z="0" />
+					<vertex x="2.500000" y="-5.000000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="70" name="voxel_2_0_2" type="model" p:UUID="e709f2e6-d0eb-4704-8b93-66af5e5dca15">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-5.000000" z="0" />
+					<vertex x="2.500000" y="-5.000000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="0" y="-5.000000" z="2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="72" name="voxel_2_0_3" type="model" p:UUID="f527fd74-8af1-4a48-c4f8-d10d30612357">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-5.000000" z="2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="0" y="-5.000000" z="5.000000" />
+					<vertex x="2.500000" y="-5.000000" z="5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="0" y="-2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="74" name="voxel_2_1_0" type="model" p:UUID="fd391680-4f7d-4c20-9206-23de65d2abe4">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="0" z="-5.000000" />
+					<vertex x="0" y="0" z="-5.000000" />
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="76" name="voxel_2_1_1" type="model" p:UUID="d2f62e04-d812-4962-96e8-720d259e7005">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="0" y="0" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="78" name="voxel_2_1_2" type="model" p:UUID="8401752e-0005-4f43-9e12-12639946cba6">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="80" name="voxel_2_1_3" type="model" p:UUID="61102336-159f-483d-b2d9-368a544d4756">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="0" y="-2.500000" z="5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="2.500000" y="0" z="5.000000" />
+					<vertex x="0" y="0" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="82" name="voxel_2_2_0" type="model" p:UUID="d6095bd0-1e45-4721-9fc5-d95c2d306949">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="0" z="-5.000000" />
+					<vertex x="2.500000" y="0" z="-5.000000" />
+					<vertex x="2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="0" y="2.500000" z="-5.000000" />
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="84" name="voxel_2_2_1" type="model" p:UUID="750dae7b-3cb7-406b-9884-5ddb91e25a9b">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="0" y="0" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="86" name="voxel_2_2_2" type="model" p:UUID="ac82b9c2-dff9-42e5-cda0-0a07045b2cb4">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="0" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="88" name="voxel_2_2_3" type="model" p:UUID="7b637402-05f6-4063-97d8-b93ccb6291ca">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="0" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="0" y="0" z="5.000000" />
+					<vertex x="2.500000" y="0" z="5.000000" />
+					<vertex x="2.500000" y="2.500000" z="5.000000" />
+					<vertex x="0" y="2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="90" name="voxel_2_3_0" type="model" p:UUID="158f9288-2a1c-4c1b-bdc2-43af5f01ac12">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="5.000000" z="-5.000000" />
+					<vertex x="0" y="5.000000" z="-5.000000" />
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="0" y="5.000000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="92" name="voxel_2_3_1" type="model" p:UUID="406a1604-435b-4d5b-9ae9-85dc9e06a121">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="0" y="5.000000" z="-2.500000" />
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="2.500000" y="5.000000" z="0" />
+					<vertex x="0" y="5.000000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="94" name="voxel_2_3_2" type="model" p:UUID="53667bc6-9160-4c4e-87a7-7bc0342cc3de">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="2.500000" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="2.500000" y="5.000000" z="0" />
+					<vertex x="0" y="5.000000" z="0" />
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="5.000000" z="2.500000" />
+					<vertex x="0" y="5.000000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="96" name="voxel_2_3_3" type="model" p:UUID="1666009e-da64-4f7c-c6ad-067dab0a7919">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="5.000000" z="2.500000" />
+					<vertex x="0" y="5.000000" z="2.500000" />
+					<vertex x="0" y="2.500000" z="5.000000" />
+					<vertex x="2.500000" y="2.500000" z="5.000000" />
+					<vertex x="2.500000" y="5.000000" z="5.000000" />
+					<vertex x="0" y="5.000000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="98" name="voxel_3_0_0" type="model" p:UUID="dc1fa9ba-2d81-4815-c3d2-cc32ed37c6ee">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-5.000000" z="-5.000000" />
+					<vertex x="5.000000" y="-5.000000" z="-5.000000" />
+					<vertex x="5.000000" y="-2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="5.000000" y="-5.000000" z="-2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="100" name="voxel_3_0_1" type="model" p:UUID="feae2987-543f-4f74-9a6f-93aa84b0f60d">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-5.000000" z="-2.500000" />
+					<vertex x="5.000000" y="-5.000000" z="-2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="0" />
+					<vertex x="5.000000" y="-5.000000" z="0" />
+					<vertex x="5.000000" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="102" name="voxel_3_0_2" type="model" p:UUID="b1e9c1de-e1f3-4be4-a9c2-10c0ce4259f5">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-5.000000" z="0" />
+					<vertex x="5.000000" y="-5.000000" z="0" />
+					<vertex x="5.000000" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="5.000000" y="-5.000000" z="2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="104" name="voxel_3_0_3" type="model" p:UUID="8fa3bb6d-49c7-4ce6-c3aa-6c47d0f1ac08">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-5.000000" z="2.500000" />
+					<vertex x="5.000000" y="-5.000000" z="2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="2.500000" y="-5.000000" z="5.000000" />
+					<vertex x="5.000000" y="-5.000000" z="5.000000" />
+					<vertex x="5.000000" y="-2.500000" z="5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="106" name="voxel_3_1_0" type="model" p:UUID="ae92b5d3-2a27-4ed2-bf93-7d6ef499c8f7">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-2.500000" z="-5.000000" />
+					<vertex x="5.000000" y="-2.500000" z="-5.000000" />
+					<vertex x="5.000000" y="0" z="-5.000000" />
+					<vertex x="2.500000" y="0" z="-5.000000" />
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="108" name="voxel_3_1_1" type="model" p:UUID="dcf1928e-eba8-4472-b97c-ba65f8d64c9b">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="5.000000" y="-2.500000" z="0" />
+					<vertex x="5.000000" y="0" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="110" name="voxel_3_1_2" type="model" p:UUID="1388306b-06ac-4b26-8d28-3e81c70ee91d">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-2.500000" z="0" />
+					<vertex x="5.000000" y="-2.500000" z="0" />
+					<vertex x="5.000000" y="0" z="0" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="5.000000" y="0" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="112" name="voxel_3_1_3" type="model" p:UUID="e0402ad8-37f9-4d3c-b2bc-8b5716de65c3">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="-2.500000" z="2.500000" />
+					<vertex x="5.000000" y="-2.500000" z="2.500000" />
+					<vertex x="5.000000" y="0" z="2.500000" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="2.500000" y="-2.500000" z="5.000000" />
+					<vertex x="5.000000" y="-2.500000" z="5.000000" />
+					<vertex x="5.000000" y="0" z="5.000000" />
+					<vertex x="2.500000" y="0" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="114" name="voxel_3_2_0" type="model" p:UUID="9b225480-e3bf-4ba0-aa5a-0f198a1114f1">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="0" z="-5.000000" />
+					<vertex x="5.000000" y="0" z="-5.000000" />
+					<vertex x="5.000000" y="2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="5.000000" y="0" z="-2.500000" />
+					<vertex x="5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="116" name="voxel_3_2_1" type="model" p:UUID="42d2c7c5-0796-4f0f-88c6-11fbc1975e3c">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="0" z="-2.500000" />
+					<vertex x="5.000000" y="0" z="-2.500000" />
+					<vertex x="5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="5.000000" y="0" z="0" />
+					<vertex x="5.000000" y="2.500000" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="118" name="voxel_3_2_2" type="model" p:UUID="42553ca9-7c16-474f-afe8-41f15161d0dc">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="0" z="0" />
+					<vertex x="5.000000" y="0" z="0" />
+					<vertex x="5.000000" y="2.500000" z="0" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="5.000000" y="0" z="2.500000" />
+					<vertex x="5.000000" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="120" name="voxel_3_2_3" type="model" p:UUID="780e66e2-5eb5-4612-9efb-2ed09c659c4f">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="0" z="2.500000" />
+					<vertex x="5.000000" y="0" z="2.500000" />
+					<vertex x="5.000000" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="2.500000" y="0" z="5.000000" />
+					<vertex x="5.000000" y="0" z="5.000000" />
+					<vertex x="5.000000" y="2.500000" z="5.000000" />
+					<vertex x="2.500000" y="2.500000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="122" name="voxel_3_3_0" type="model" p:UUID="57de4080-acf8-48f1-c19c-1b7d086fbef9">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="2.500000" z="-5.000000" />
+					<vertex x="5.000000" y="2.500000" z="-5.000000" />
+					<vertex x="5.000000" y="5.000000" z="-5.000000" />
+					<vertex x="2.500000" y="5.000000" z="-5.000000" />
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="5.000000" z="-2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="124" name="voxel_3_3_1" type="model" p:UUID="4e228f1a-d90e-4d10-b61f-89096888115b">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="2.500000" z="-2.500000" />
+					<vertex x="5.000000" y="5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="5.000000" z="-2.500000" />
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="5.000000" y="2.500000" z="0" />
+					<vertex x="5.000000" y="5.000000" z="0" />
+					<vertex x="2.500000" y="5.000000" z="0" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="126" name="voxel_3_3_2" type="model" p:UUID="de1f5a49-7c99-4f29-a903-312a84876f8a">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="2.500000" z="0" />
+					<vertex x="5.000000" y="2.500000" z="0" />
+					<vertex x="5.000000" y="5.000000" z="0" />
+					<vertex x="2.500000" y="5.000000" z="0" />
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="5.000000" y="2.500000" z="2.500000" />
+					<vertex x="5.000000" y="5.000000" z="2.500000" />
+					<vertex x="2.500000" y="5.000000" z="2.500000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="128" name="voxel_3_3_3" type="model" p:UUID="e536aff4-2aee-4887-a813-26877774f976">
+			<mesh>
+				<vertices>
+					<vertex x="2.500000" y="2.500000" z="2.500000" />
+					<vertex x="5.000000" y="2.500000" z="2.500000" />
+					<vertex x="5.000000" y="5.000000" z="2.500000" />
+					<vertex x="2.500000" y="5.000000" z="2.500000" />
+					<vertex x="2.500000" y="2.500000" z="5.000000" />
+					<vertex x="5.000000" y="2.500000" z="5.000000" />
+					<vertex x="5.000000" y="5.000000" z="5.000000" />
+					<vertex x="2.500000" y="5.000000" z="5.000000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" />
+					<triangle v1="0" v2="2" v3="3" />
+					<triangle v1="4" v2="6" v3="5" />
+					<triangle v1="4" v2="7" v3="6" />
+					<triangle v1="0" v2="4" v3="5" />
+					<triangle v1="0" v2="5" v3="1" />
+					<triangle v1="2" v2="6" v3="7" />
+					<triangle v1="2" v2="7" v3="3" />
+					<triangle v1="0" v2="3" v3="7" />
+					<triangle v1="0" v2="7" v3="4" />
+					<triangle v1="1" v2="5" v3="6" />
+					<triangle v1="1" v2="6" v3="2" />
+				</triangles>
+			</mesh>
+		</object>
+	</resources>
+	<build p:UUID="b98a0bc9-832e-4ef6-c166-782a438d16f8"></build>
+</model>

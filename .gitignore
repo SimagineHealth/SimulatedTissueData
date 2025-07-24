@@ -73,15 +73,17 @@ venv.bak/
 
 # 3MF files (if you want to ignore them)
 *.3mf
+*.zip
 
 # Temporary 3D model files
 *.stl.tmp
 *.obj.tmp
 
 # macOS
-.DS_Store
+*.DS_Store
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
