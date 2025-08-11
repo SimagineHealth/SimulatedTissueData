@@ -31,7 +31,7 @@ def create_mesh_plot(mesh):
     vertices = mesh.vertices
     faces = mesh.faces
     
-    # Create the 3D mesh plot
+    # Create the 3D mesh plot with z-axis gradient coloring
     fig = go.Figure(data=[
         go.Mesh3d(
             x=vertices[:, 0],
@@ -40,8 +40,9 @@ def create_mesh_plot(mesh):
             i=faces[:, 0],
             j=faces[:, 1],
             k=faces[:, 2],
+            intensity=vertices[:, 2],  # Use z-coordinates for color intensity
+            colorscale='Viridis',  # You can use other colorscales like 'Blues', 'Reds', 'Rainbow', etc.
             opacity=0.8,
-            color='lightblue',
             showscale=True
         )
     ])
